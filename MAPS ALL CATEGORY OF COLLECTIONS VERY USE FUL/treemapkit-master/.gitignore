@@ -1,0 +1,8 @@
+IPhoneSimpleDemo/*.xcodeproj/project.xcworkspace
+IPhoneSimpleDemo/*.xcodeproj/xcuserdata/*.xcuserdatad
+IPhoneSimpleDemo/*.xcodeproj/*.pbxuser
+IPhoneSimpleDemo/*.xcodeproj/*.mode*
+build/Debug-*
+build/Release-*
+build/*.build
+DerivedData

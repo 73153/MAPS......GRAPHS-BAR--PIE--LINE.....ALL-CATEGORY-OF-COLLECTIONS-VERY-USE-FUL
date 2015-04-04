@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39382DED12E9B7370012007D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39382DEC12E9B7370012007D /* UIKit.framework */; };
+		39CFA15E12FA29F000B859F9 /* MTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CFA15D12FA29F000B859F9 /* MTLocation.h */; };
+		9B3AE9B61545601F0076F873 /* MTOneTimeLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3AE9B41545601F0076F873 /* MTOneTimeLocationManager.h */; };
+		9B3AE9B71545601F0076F873 /* MTOneTimeLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE9B51545601F0076F873 /* MTOneTimeLocationManager.m */; };
+		9BDD927B148AB18D008E21A1 /* MTLocateMeBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9277148AB18D008E21A1 /* MTLocateMeBarButtonItem.h */; };
+		9BDD927C148AB18D008E21A1 /* MTLocateMeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9278148AB18D008E21A1 /* MTLocateMeBarButtonItem.m */; };
+		9BDD927D148AB18D008E21A1 /* MTLocateMeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9279148AB18D008E21A1 /* MTLocateMeButton.h */; };
+		9BDD927E148AB18D008E21A1 /* MTLocateMeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD927A148AB18D008E21A1 /* MTLocateMeButton.m */; };
+		9BDD9285148AB1A2008E21A1 /* MKAnnotationView+MTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD927F148AB1A2008E21A1 /* MKAnnotationView+MTLocation.h */; };
+		9BDD9286148AB1A2008E21A1 /* MKAnnotationView+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9280148AB1A2008E21A1 /* MKAnnotationView+MTLocation.m */; };
+		9BDD9287148AB1A2008E21A1 /* MKMapView+MTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9281148AB1A2008E21A1 /* MKMapView+MTLocation.h */; };
+		9BDD9288148AB1A2008E21A1 /* MKMapView+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9282148AB1A2008E21A1 /* MKMapView+MTLocation.m */; };
+		9BDD9289148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9283148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.h */; };
+		9BDD928A148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9284148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.m */; };
+		9BDD928D148AB1AF008E21A1 /* MTLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD928B148AB1AF008E21A1 /* MTLocationManager.h */; };
+		9BDD928E148AB1AF008E21A1 /* MTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD928C148AB1AF008E21A1 /* MTLocationManager.m */; };
+		9BDD9294148AB1C5008E21A1 /* MTLocationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD928F148AB1C5008E21A1 /* MTLocationDefines.h */; };
+		9BDD9295148AB1C5008E21A1 /* MTLocationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9290148AB1C5008E21A1 /* MTLocationFunctions.h */; };
+		9BDD9296148AB1C5008E21A1 /* MTLocationFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9291148AB1C5008E21A1 /* MTLocationFunctions.m */; };
+		9BDD9297148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9292148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.h */; };
+		9BDD9298148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD9293148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.m */; };
+		9BDD929A148AB1E2008E21A1 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD9299148AB1E2008E21A1 /* Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39382DEC12E9B7370012007D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39CFA15D12FA29F000B859F9 /* MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocation.h; path = MTLocation/MTLocation.h; sourceTree = "<group>"; };
+		9B3AE9B41545601F0076F873 /* MTOneTimeLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTOneTimeLocationManager.h; path = MTLocation/MTOneTimeLocationManager.h; sourceTree = "<group>"; };
+		9B3AE9B51545601F0076F873 /* MTOneTimeLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTOneTimeLocationManager.m; path = MTLocation/MTOneTimeLocationManager.m; sourceTree = "<group>"; };
+		9BDD9276148AB101008E21A1 /* MTLocation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MTLocation.bundle; sourceTree = "<group>"; };
+		9BDD9277148AB18D008E21A1 /* MTLocateMeBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocateMeBarButtonItem.h; path = MTLocation/MTLocateMeBarButtonItem.h; sourceTree = "<group>"; };
+		9BDD9278148AB18D008E21A1 /* MTLocateMeBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLocateMeBarButtonItem.m; path = MTLocation/MTLocateMeBarButtonItem.m; sourceTree = "<group>"; };
+		9BDD9279148AB18D008E21A1 /* MTLocateMeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocateMeButton.h; path = MTLocation/MTLocateMeButton.h; sourceTree = "<group>"; };
+		9BDD927A148AB18D008E21A1 /* MTLocateMeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLocateMeButton.m; path = MTLocation/MTLocateMeButton.m; sourceTree = "<group>"; };
+		9BDD927F148AB1A2008E21A1 /* MKAnnotationView+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+MTLocation.h"; path = "MTLocation/MKAnnotationView+MTLocation.h"; sourceTree = "<group>"; };
+		9BDD9280148AB1A2008E21A1 /* MKAnnotationView+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+MTLocation.m"; path = "MTLocation/MKAnnotationView+MTLocation.m"; sourceTree = "<group>"; };
+		9BDD9281148AB1A2008E21A1 /* MKMapView+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+MTLocation.h"; path = "MTLocation/MKMapView+MTLocation.h"; sourceTree = "<group>"; };
+		9BDD9282148AB1A2008E21A1 /* MKMapView+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+MTLocation.m"; path = "MTLocation/MKMapView+MTLocation.m"; sourceTree = "<group>"; };
+		9BDD9283148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+MTLocation.h"; path = "MTLocation/UIBarButtonItem+MTLocation.h"; sourceTree = "<group>"; };
+		9BDD9284148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+MTLocation.m"; path = "MTLocation/UIBarButtonItem+MTLocation.m"; sourceTree = "<group>"; };
+		9BDD928B148AB1AF008E21A1 /* MTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocationManager.h; path = MTLocation/MTLocationManager.h; sourceTree = "<group>"; };
+		9BDD928C148AB1AF008E21A1 /* MTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLocationManager.m; path = MTLocation/MTLocationManager.m; sourceTree = "<group>"; };
+		9BDD928F148AB1C5008E21A1 /* MTLocationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocationDefines.h; path = MTLocation/MTLocationDefines.h; sourceTree = "<group>"; };
+		9BDD9290148AB1C5008E21A1 /* MTLocationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLocationFunctions.h; path = MTLocation/MTLocationFunctions.h; sourceTree = "<group>"; };
+		9BDD9291148AB1C5008E21A1 /* MTLocationFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLocationFunctions.m; path = MTLocation/MTLocationFunctions.m; sourceTree = "<group>"; };
+		9BDD9292148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTouchesMovedGestureRecognizer.h; path = MTLocation/MTTouchesMovedGestureRecognizer.h; sourceTree = "<group>"; };
+		9BDD9293148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTouchesMovedGestureRecognizer.m; path = MTLocation/MTTouchesMovedGestureRecognizer.m; sourceTree = "<group>"; };
+		9BDD9299148AB1E2008E21A1 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = MTLocation/Prefix.pch; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libMTLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				39382DED12E9B7370012007D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libMTLocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MTLocateMeBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				397F552712FF6414006BE3B5 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = MTLocateMeBarButtonItem;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				39382DEC12E9B7370012007D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39CFA14712FA268F00B859F9 /* Buttons */,
+				39781DB01323C6770030FB3D /* Categories */,
+				39E47D1012FF41A000649F01 /* Delegation */,
+				39CFA14612FA268500B859F9 /* Utils */,
+				39CFA15D12FA29F000B859F9 /* MTLocation.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD9299148AB1E2008E21A1 /* Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		39781DB01323C6770030FB3D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD927F148AB1A2008E21A1 /* MKAnnotationView+MTLocation.h */,
+				9BDD9280148AB1A2008E21A1 /* MKAnnotationView+MTLocation.m */,
+				9BDD9281148AB1A2008E21A1 /* MKMapView+MTLocation.h */,
+				9BDD9282148AB1A2008E21A1 /* MKMapView+MTLocation.m */,
+				9BDD9283148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.h */,
+				9BDD9284148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		397F552712FF6414006BE3B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD9276148AB101008E21A1 /* MTLocation.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39CFA14612FA268500B859F9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD928F148AB1C5008E21A1 /* MTLocationDefines.h */,
+				9BDD9290148AB1C5008E21A1 /* MTLocationFunctions.h */,
+				9BDD9291148AB1C5008E21A1 /* MTLocationFunctions.m */,
+				9BDD9292148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.h */,
+				9BDD9293148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		39CFA14712FA268F00B859F9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD9277148AB18D008E21A1 /* MTLocateMeBarButtonItem.h */,
+				9BDD9278148AB18D008E21A1 /* MTLocateMeBarButtonItem.m */,
+				9BDD9279148AB18D008E21A1 /* MTLocateMeButton.h */,
+				9BDD927A148AB18D008E21A1 /* MTLocateMeButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		39E47D1012FF41A000649F01 /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD928B148AB1AF008E21A1 /* MTLocationManager.h */,
+				9BDD928C148AB1AF008E21A1 /* MTLocationManager.m */,
+				9B3AE9B41545601F0076F873 /* MTOneTimeLocationManager.h */,
+				9B3AE9B51545601F0076F873 /* MTOneTimeLocationManager.m */,
+			);
+			name = Delegation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFA15E12FA29F000B859F9 /* MTLocation.h in Headers */,
+				9BDD927B148AB18D008E21A1 /* MTLocateMeBarButtonItem.h in Headers */,
+				9BDD927D148AB18D008E21A1 /* MTLocateMeButton.h in Headers */,
+				9BDD9285148AB1A2008E21A1 /* MKAnnotationView+MTLocation.h in Headers */,
+				9BDD9287148AB1A2008E21A1 /* MKMapView+MTLocation.h in Headers */,
+				9BDD9289148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.h in Headers */,
+				9BDD928D148AB1AF008E21A1 /* MTLocationManager.h in Headers */,
+				9BDD9294148AB1C5008E21A1 /* MTLocationDefines.h in Headers */,
+				9BDD9295148AB1C5008E21A1 /* MTLocationFunctions.h in Headers */,
+				9BDD9297148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.h in Headers */,
+				9BDD929A148AB1E2008E21A1 /* Prefix.pch in Headers */,
+				9B3AE9B61545601F0076F873 /* MTOneTimeLocationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* MTLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MTLocation" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTLocation;
+			productName = MTLocateMeBarButtonItem;
+			productReference = D2AAC07E0554694100DB518D /* libMTLocation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MTLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* MTLocateMeBarButtonItem */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* MTLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDD927C148AB18D008E21A1 /* MTLocateMeBarButtonItem.m in Sources */,
+				9BDD927E148AB18D008E21A1 /* MTLocateMeButton.m in Sources */,
+				9BDD9286148AB1A2008E21A1 /* MKAnnotationView+MTLocation.m in Sources */,
+				9BDD9288148AB1A2008E21A1 /* MKMapView+MTLocation.m in Sources */,
+				9BDD928A148AB1A2008E21A1 /* UIBarButtonItem+MTLocation.m in Sources */,
+				9BDD928E148AB1AF008E21A1 /* MTLocationManager.m in Sources */,
+				9BDD9296148AB1C5008E21A1 /* MTLocationFunctions.m in Sources */,
+				9BDD9298148AB1C5008E21A1 /* MTTouchesMovedGestureRecognizer.m in Sources */,
+				9B3AE9B71545601F0076F873 /* MTOneTimeLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MTLocateMeBarButtonItem.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MTLocation/Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = MTLocation;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/MTLocateMeBarButtonItem.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MTLocation/Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = MTLocation;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MTLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MTLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MTLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MTLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
